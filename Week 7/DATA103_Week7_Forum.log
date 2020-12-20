@@ -1,0 +1,28 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 72         
+ 73         proc univariate data=sashelp.cars;
+ 74         var Mpg;
+ ERROR: Variable MPG not found.
+ 75         run;
+ 
+ NOTE: The SAS System stopped processing this step because of errors.
+ NOTE: PROCEDURE UNIVARIATE used (Total process time):
+       real time           0.00 seconds
+       user cpu time       0.01 seconds
+       system cpu time     0.00 seconds
+       memory              365.21k
+       OS Memory           33444.00k
+       Timestamp           12/09/2020 08:54:28 PM
+       Step Count                        57  Switch Count  0
+       Page Faults                       0
+       Page Reclaims                     24
+       Page Swaps                        0
+       Voluntary Context Switches        0
+       Involuntary Context Switches      0
+       Block Input Operations            0
+       Block Output Operations           0
+       
+ 76         
+ 77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 89         
